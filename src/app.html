@@ -114,22 +114,13 @@
     <div class="container">
       <div class="row">
         <div class="blog_section">
-          <h1>Past <span>Projects</span></h1>
-          <div class="single_blog col-md-4 slider-content">
-            <a href="#">
-                <img src="${img1}" alt="">
+          <h1>Public <span> Projects</span></h1>
+          <div class="single_blog col-md-4 slider-content" repeat.for="project of projects">
+            <a href="${project.link}">
+                <img src="${project.img}" alt="">
                 <div class="slider-text">
-                  <h3>Beyond Stars</h3>
-                  <p>A visual novel puzzle game unfolding the story of Alex as he goes to a journey of a lifetime. Available on Play Store.</p>
-                </div>
-            </a>
-          </div>
-          <div class="single_blog col-md-4 slider-content">
-            <a href="#">
-                <img src="${img2}" alt="">
-                <div class="slider-text">
-                  <h3>LINE Mafia BOT</h3>
-                  <p>Dive into the world of mysteries together with your friends as you try to find the betrayer in LINE.</p>
+                  <h3>${project.title}</h3>
+                  <p>${project.description}</p>
                 </div>
             </a>
           </div>

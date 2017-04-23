@@ -14,8 +14,6 @@ export class App {
   }
 
   slide = [photo1, photo2, photo3];
-  img1 = img1;
-  img2 = img2;
 
   technologies = [
     {icon: 'icon-csharp', toolTip: 'C#', link: 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)' },
@@ -33,6 +31,11 @@ export class App {
     {icon: 'icon-npm', toolTip: 'NPM', link: 'https://www.npmjs.com/' },
     {icon: 'icon-mysql', toolTip: 'Mysql', link: 'https://www.mysql.com/' },
     {icon: 'icon-postgresql', toolTip: 'Postgresql', link: 'https://www.postgresql.org' }
+  ]
+
+  projects = [
+    {title: 'Beyond Stars', img: img1, description: 'A visual novel puzzle game unfolding the story of Alex as he goes to a journey of a lifetime. Available on Play Store.', link: 'https://play.google.com/store/apps/details?id=com.beyond.stars&hl=en' },
+    {title: 'U-Magnet', img: img2, description: 'An utility website that shortens the url of any website into a memorable link. Never have any troubles with url anymore!', link: 'https://url.rollingmagnet.com' }
   ]
 
 }
