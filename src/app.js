@@ -1,5 +1,6 @@
 import img1 from './assets/img/1.jpg';
 import img2 from './assets/img/2.jpg';
+import img3 from './assets/img/3.jpg';
 
 import photo1 from './assets/img/photo-01.jpg';
 import photo2 from './assets/img/photo-02.jpg';
@@ -35,7 +36,8 @@ export class App {
 
   projects = [
     {title: 'Beyond Stars', img: img1, description: 'A visual novel puzzle game unfolding the story of Alex as he goes to a journey of a lifetime. Available on Play Store.', link: 'https://play.google.com/store/apps/details?id=com.beyond.stars&hl=en' },
-    {title: 'U-Magnet', img: img2, description: 'An utility website that shortens the url of any website into a memorable link. Never have any troubles with url anymore!', link: 'https://url.rollingmagnet.com' }
+    {title: 'U-Magnet', img: img2, description: 'An utility website that shortens the url of any website into a memorable link. Never have any troubles with url anymore!', link: 'https://url.rollingmagnet.com' },
+    {title: 'AniTrack', img: img3, description: 'A web app that tracks the progress of anime for every user. Never check availabilities one by one anymore!', link: 'https://anitrack.uk' }
   ]
 
 }
