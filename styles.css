@@ -231,7 +231,7 @@ div.au-stagger {
   src: url(4d03e427f13a893d5e9ce14ff5ed8287.eot?#iefix) format("embedded-opentype"),
        url(64c7cf6cb98b1297cd522df93db3d0d2.woff) format("woff"),
        url(19778cf9c33d0c98076aeffd7dd100aa.ttf) format("truetype"),
-       url(5cd7736320021318ac88ef393240125a.svg#font-mfizz) format("svg");
+       url(4a873e5f62afe3c8a79b6250b3d477db.svg#font-mfizz) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -239,7 +239,7 @@ div.au-stagger {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "FontMfizz";
-    src: url(5cd7736320021318ac88ef393240125a.svg#font-mfizz) format("svg");
+    src: url(4a873e5f62afe3c8a79b6250b3d477db.svg#font-mfizz) format("svg");
   }
 }
 
@@ -13871,4 +13871,4 @@ line-height: 45px !important;}
 @keyframes scaleUpTo {
   to { opacity: 0; transform: scale(1.5); }
 }
-/*# sourceMappingURL=app.9d830a5cb24da05e9f33.bundle.map*/
+/*# sourceMappingURL=app.da939b15f6cf0dc2d2ee.bundle.map*/
